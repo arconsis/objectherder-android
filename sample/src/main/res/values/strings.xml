@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">ObjectherderTest</string>
+	<string name="just_a_textinput">just a textinput</string>
+	<string name="recyclerview">Recyclerview</string>
+	<string name="background_button">Action in Background</string>
+	<string name="contextactionButton">ContextAction</string>
+</resources>
