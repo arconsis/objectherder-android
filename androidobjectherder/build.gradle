@@ -1,6 +1,10 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 
 def VERSION_NAME = "0.1.0-SNAPSHOT"
+group = 'com.arconsis'
+version VERSION_NAME
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
