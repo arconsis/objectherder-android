@@ -108,7 +108,6 @@ public class ObjectHerder {
 		return getInstance().createOrReuse(fragment, objectId, objectCreator);
 	}
 
-
 	/**
 	 * Get your ObjectHerder
 	 * @return the started ObjectHerder
@@ -223,7 +222,7 @@ public class ObjectHerder {
 	// TODO: check this id generation - perhaps create a HasId interface?
 	@NonNull
 	private String toContextId(@NonNull Fragment fragment) {
-		return fragment.getClass().getName() + ":" + fragment.getId();
+		return fragment.getClass().getName() + ":" + fragment.getActivity().getTaskId();
 	}
 
 }
