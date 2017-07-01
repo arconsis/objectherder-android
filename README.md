@@ -15,7 +15,7 @@ Objects are removed when:
  - an Activity is closed with back
  - a Fragment is removed
 
-#Deprecated so soon
+# Deprecated so soon
 
 You better use official API from google 
 [android architecture](https://developer.android.com/topic/libraries/architecture/guide.html) which was announced some month after the initial version of objectherder-android 
